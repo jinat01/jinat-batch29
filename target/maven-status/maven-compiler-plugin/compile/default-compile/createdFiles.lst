@@ -1,0 +1,7 @@
+com\seleniumpagefactory\SeleniumPageFactory.class
+com\generic\BaseLogin.class
+com\util\ScreenShot.class
+com\drivermanager\DriverManager.class
+com\util\Constants.class
+com\util\HighLighter.class
+com\util\SeleniumWait.class
