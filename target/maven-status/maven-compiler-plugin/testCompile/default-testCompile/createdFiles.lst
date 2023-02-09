@@ -1,3 +1,5 @@
-com\regression\SomkeTest.class
 com\cucumberrunner\CucumberRunner.class
+com\regression\SomkeTest.class
+com\testng\interview\practice\SmokeTestWithTestNG.class
+com\regression\PracticeTestNG.class
 com\cucumberrunner\StepDef.class

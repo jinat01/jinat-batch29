@@ -1,40 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-22T14:32:39 PST" name="Default suite" finished-at="2022-11-22T14:32:48 PST" duration-ms="9450">
+  <suite started-at="2023-01-24T15:41:48 PST" name="Suite" finished-at="2023-01-24T15:42:02 PST" duration-ms="14086">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberrunner.CucumberRunner@6cf0e0ba]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-11-22T14:32:39 PST" name="Default test" finished-at="2022-11-22T14:32:48 PST" duration-ms="9450">
-      <class name="com.cucumberrunner.CucumberRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.cucumberrunner.CucumberRunner@6cf0e0ba]" started-at="2022-11-22T14:32:39 PST" name="setUpClass" finished-at="2022-11-22T14:32:39 PST" duration-ms="124" status="PASS">
+    <test started-at="2023-01-24T15:41:48 PST" name="Test" finished-at="2023-01-24T15:42:02 PST" duration-ms="14086">
+      <class name="com.generic.CostcoWithTestNG">
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:com.generic.CostcoWithTestNG@4550bb58]" started-at="2023-01-24T15:41:48 PST" name="getSetup" finished-at="2023-01-24T15:41:57 PST" duration-ms="8679" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumberrunner.CucumberRunner@6cf0e0ba]" started-at="2022-11-22T14:32:39 PST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-11-22T14:32:48 PST" duration-ms="9201" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["As a Luma application user, I have to login with valid credential."]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Login function test"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- getSetup -->
+        <test-method signature="getTest()[pri:0, instance:com.generic.CostcoWithTestNG@4550bb58]" started-at="2023-01-24T15:42:02 PST" name="getTest" finished-at="2023-01-24T15:42:02 PST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.cucumberrunner.CucumberRunner@6cf0e0ba]" started-at="2022-11-22T14:32:48 PST" name="tearDownClass" finished-at="2022-11-22T14:32:48 PST" duration-ms="40" status="PASS">
+        </test-method> <!-- getTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.generic.CostcoWithTestNG@4550bb58]" started-at="2023-01-24T15:42:02 PST" name="teardown" finished-at="2023-01-24T15:42:02 PST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- com.cucumberrunner.CucumberRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- com.generic.CostcoWithTestNG -->
+      <class name="com.generic.LumaWithTestNG">
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:com.generic.LumaWithTestNG@67c27493]" started-at="2023-01-24T15:41:59 PST" name="getSetup" finished-at="2023-01-24T15:42:02 PST" duration-ms="2966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="getTest()[pri:0, instance:com.generic.LumaWithTestNG@67c27493]" started-at="2023-01-24T15:42:02 PST" name="getTest" finished-at="2023-01-24T15:42:02 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.generic.LumaWithTestNG@67c27493]" started-at="2023-01-24T15:42:02 PST" name="teardown" finished-at="2023-01-24T15:42:02 PST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.generic.LumaWithTestNG -->
+      <class name="com.generic.GoogleWithTestNg">
+        <test-method is-config="true" signature="getSetup()[pri:0, instance:com.generic.GoogleWithTestNg@77fbd92c]" started-at="2023-01-24T15:41:57 PST" name="getSetup" finished-at="2023-01-24T15:41:59 PST" duration-ms="2319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSetup -->
+        <test-method signature="getTest()[pri:0, instance:com.generic.GoogleWithTestNg@77fbd92c]" started-at="2023-01-24T15:42:02 PST" name="getTest" finished-at="2023-01-24T15:42:02 PST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.generic.GoogleWithTestNg@77fbd92c]" started-at="2023-01-24T15:42:02 PST" name="teardown" finished-at="2023-01-24T15:42:02 PST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.generic.GoogleWithTestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

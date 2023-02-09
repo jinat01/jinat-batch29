@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="URL" value="www.google.com"></parameter>
+<parameter name="user" value="sathi"></parameter>
+<parameter name="password" value="sathi2"></parameter>
+  <test thread-count="5" name="Test">
+  <classes>
+  <class name="com.regression.ParameterTestng"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
